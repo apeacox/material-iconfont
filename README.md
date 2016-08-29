@@ -1,15 +1,13 @@
-# Material design icons
+# Material design icons (fork)
 
 Material design icons are the official [icon set](http://www.google.com/design/spec/style/icons.html#icons-system-icons) from Google that are designed under the [material design guidelines](http://www.google.com/design/spec).
 
+This forks changes the paths for a better use with asset packagers.
+
 ## Getting Started
 
-using bower 
-```
-bower install material-iconfont --save
-```
+Put this in your package.json:
 
-using npm
 ```
-npm install material-design-icons-font --save
+"material-design-icons-font": "apeacox/material-iconfont",
 ```
